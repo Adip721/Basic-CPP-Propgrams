@@ -2,18 +2,13 @@
 
 
 int main(){
-    int a,b,c;
-    std::cout << "Please Enter a variable x: " <<std::endl;
-    std::cin >> a;
-    std::cout << "Please Enter a variable y:"<<std::endl;
-    std::cin >> b;
-    std::cout << "The variables you have entered are x: "<< a <<" and y: "<< b <<std::endl;
-    c=b;
-    b=a;
-    a=c;
-    std::cout<<"After swapping, your new variables are x: "<< a <<" and y: "<< b <<std::endl;
+    double Tc,Tf;
+    std::cout<<"Please enter your temparature in degree Celsius:"; 
+    std::cin >> Tc;
+    Tf = 1.8*Tc + 32;
+    std::cout<<"Your temparature in degree Farenheit is: "<<Tf;
     return 0;
-}
+    }
     
     
 
